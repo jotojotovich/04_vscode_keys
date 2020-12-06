@@ -9,7 +9,7 @@ let z = document.querySelector('html');
 let data = [
     { comb: 'CTRL + SHIFT + S', val: 'Сохранить как ...' },
     { comb: 'CTRL + K Z', val: 'Zen Режим' },
-    { comb: 'SHIFT + ALT + F', val: 'Форматирвать документ' },
+    { comb: 'SHIFT + ALT + F', val: 'Форматировать документ' },
     { comb: 'ALT + L ALT + O', val: 'Open with Live Server' },
     { comb: 'ALT + L ALT + C', val: 'Stop Live Server' }
 ]
