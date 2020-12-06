@@ -55,7 +55,7 @@ header {
 
 .combinations, .value {
   text-align: center;
-  font-size: 17px;
+  font-size: 20px;
   margin: 10px 0; }
 
 .footer {
@@ -63,7 +63,8 @@ header {
   font-size: 12px;
   flex: 0 0 10%;
   display: flex;
-  align-items: end; }
+  align-items: end;
+  flex-direction: column; }
 
 .footer a {
   margin: 0 auto;
@@ -72,6 +73,11 @@ header {
   margin-bottom: 10px; }
 
 .after-click {
-  color: #b3f364; }
+  color: #b3f364;
+  font-size: 28px; }
+
+.name {
+  font-size: 7px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */

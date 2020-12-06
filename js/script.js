@@ -9,7 +9,7 @@ let z = document.querySelector('html');
 let data = [
     { comb: 'CTRL + SHIFT + S', val: 'Сохранить как ...' },
     { comb: 'CTRL + K Z', val: 'Zen Режим' },
-    { comb: 'SHIFT + ALT + F', val: 'Форматирвать документ' },
+    { comb: 'SHIFT + ALT + F', val: 'Форматировать документ' },
     { comb: 'ALT + L ALT + O', val: 'Open with Live Server' },
     { comb: 'ALT + L ALT + C', val: 'Stop Live Server' }
 ]
@@ -18,6 +18,7 @@ let button = document.querySelector('.button');
 let combinations = document.querySelector('.combinations');
 let value = document.querySelector('.value');
 let logo = document.querySelector('.logo');
+let content = document.querySelector('.content');
 
 // functions
 
@@ -25,7 +26,7 @@ function getCounter() {
     let i = 0;
     return function () {
         if (i > data.length - 1)
-        i = 0;
+            i = 0;
         return i++;
     }
 }
@@ -59,8 +60,8 @@ var add = function (valueToAdd, array) {
 }
 
 function clearData(content1, content2) {
-    content1.innerText = '';
-    content2.innerText = '';
+    content1.innerText = '㋛';
+    content2.innerText = '∅⋒∅';
     logo.classList.toggle('after-click');
 }
 
@@ -73,6 +74,7 @@ button.addEventListener('click', function () {
 
 logo.addEventListener('click', function () {
     clearData(combinations, value);
+    content.classList.toggle('after-click');
 })
 
 
