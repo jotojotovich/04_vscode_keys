@@ -116,6 +116,6 @@ function disablehover() {
 
 // check js
 
-console.log('script');
+console.log('script is working');
 
 /////////
